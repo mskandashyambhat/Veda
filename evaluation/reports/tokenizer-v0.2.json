@@ -1,0 +1,74 @@
+{
+  "tokenizer": "artifacts/veda-v0.2-tokenizer-mixed.json",
+  "vocab_size": 32000,
+  "sources": {
+    "roneneldan/TinyStories:general": {
+      "documents": 5970,
+      "characters": 5000000,
+      "bpe_tokens": 1204135,
+      "byte_tokens": 5011663
+    },
+    "HuggingFaceFW/fineweb-edu:technical": {
+      "documents": 1029,
+      "characters": 5000000,
+      "bpe_tokens": 1084424,
+      "byte_tokens": 5017637
+    },
+    "open-web-math/open-web-math:math": {
+      "documents": 254,
+      "characters": 2000000,
+      "bpe_tokens": 540425,
+      "byte_tokens": 2036761
+    },
+    "HuggingFaceTB/smoltalk:code-technical": {
+      "documents": 794,
+      "characters": 3000000,
+      "bpe_tokens": 678827,
+      "byte_tokens": 3002029
+    }
+  },
+  "samples": [
+    {
+      "text": "def calculate_total(items):",
+      "bpe_tokens": 9,
+      "byte_tokens": 29,
+      "round_trip": true
+    },
+    {
+      "text": "नमस्ते",
+      "bpe_tokens": 20,
+      "byte_tokens": 20,
+      "round_trip": true
+    },
+    {
+      "text": "こんにちは",
+      "bpe_tokens": 17,
+      "byte_tokens": 17,
+      "round_trip": true
+    },
+    {
+      "text": "π ≈ 3.14159",
+      "bpe_tokens": 7,
+      "byte_tokens": 16,
+      "round_trip": true
+    },
+    {
+      "text": "SELECT * FROM users;",
+      "bpe_tokens": 9,
+      "byte_tokens": 22,
+      "round_trip": true
+    },
+    {
+      "text": "{\"name\": \"Veda\", \"tokens\": 32000}",
+      "bpe_tokens": 16,
+      "byte_tokens": 35,
+      "round_trip": true
+    },
+    {
+      "text": "# Markdown heading\n\n- item",
+      "bpe_tokens": 10,
+      "byte_tokens": 28,
+      "round_trip": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "checkpoint": "checkpoints/veda-10m/veda.pt",
+  "perplexity": {
+    "loss": 0.8771869719028473,
+    "perplexity": 2.404127307743422,
+    "batches": 20
+  },
+  "generation": [
+    {
+      "prompt": "Once upon a time",
+      "output": "Once upon a time there was a little girl named Lily. She loved to play with her friends and love"
+    },
+    {
+      "prompt": "The little girl",
+      "output": "The little girl was so happy to help her mommy and daddy was very sad. She was so happy to have"
+    },
+    {
+      "prompt": "A dog went into",
+      "output": "A dog went into and started to cry. He was so happy to help his mom and dad the boy was so happ"
+    },
+    {
+      "prompt": "One morning",
+      "output": "One morning and the starfish were so happy to help him to the store. They said they were so"
+    },
+    {
+      "prompt": "The robot",
+      "output": "The robot said that the starfish was so scared and the starfish was so happy to help. The"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "checkpoint": "checkpoints/veda-v0.2/step-005000/model.pt",
+  "perplexity": {
+    "loss": 2.508721399307251,
+    "perplexity": 12.289207022296617,
+    "batches": 20
+  },
+  "generation": [
+    {
+      "prompt": "Once upon a time",
+      "output": "Once upon a time that was going to be a good thing.\n\nOne day, a little girl named Lucy was walking in the park. She saw a big, red ball and wanted to play with it. She ran over to it and tried to grab it, but it was too high.\n\nLucy's mom saw her and said, \"Don't be sad, Lucy. I'll help you.\" Lucy"
+    },
+    {
+      "prompt": "The little girl",
+      "output": "The little girl and was so excited. She ran to the top of the top of the hill and started to climb up. Suddenly, she heard a voice from the top of the top of the hill. It was a voice.\n\nThe little girl was scared, but she was brave. She stepped closer and saw a friendly voice. The voice said, \"Hello!\"\n\nThe little girl was surprised."
+    },
+    {
+      "prompt": "A dog went into",
+      "output": "A dog went into.\n\nThe dog was very excited and he wanted to find out what it was. He asked his friend, \"What is it?\"\n\nHis friend replied, \"I'm trying to find it.\"\n\nThe dog replied, \"I'm going to find something else to make it better.\"\n\nThe dog then said, \"I can't pick it up. I'll find something"
+    },
+    {
+      "prompt": "One morning",
+      "output": "One morning at the beach.\n\nThe little girl was so excited that she ran around the beach. She ran around and around, looking for something fun to do.\n\nSuddenly, she saw a big, green frog. It was so big and round and round. She wanted to catch it, so she ran towards it.\n\nThe frog was very scared, but she was brave. She said"
+    },
+    {
+      "prompt": "The robot",
+      "output": "The robot and it was time to go home.\n\nOnce upon a time, there was a little girl named Lily. She loved to play outside and explore the world around her. One day, she saw a big, red ball and wanted to play with it. But it was too high and she didn't want to play with it.\n\nLily's mom saw her and said, \"Don't"
+    }
+  ]
+}
