@@ -1,0 +1,13 @@
+name: Veda-v0.3
+tokenizer: artifacts/veda-v0.2-tokenizer-mixed.json
+vocab_size: 32000
+context_length: 256
+hidden_size: 384
+num_layers: 8
+num_attention_heads: 8
+intermediate_size: 1024
+normalization: rmsnorm
+activation: swiglu
+position_encoding: learned
+tie_embeddings: true
+dataset: roneneldan/TinyStories
