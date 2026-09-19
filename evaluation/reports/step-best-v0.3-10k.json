@@ -1,0 +1,30 @@
+{
+  "checkpoint": "checkpoints/veda-v0.3-10k/best.pt",
+  "perplexity": {
+    "loss": 2.625011944770813,
+    "perplexity": 13.804739079526723,
+    "batches": 20
+  },
+  "generation": [
+    {
+      "prompt": "Once upon a time",
+      "output": "Once upon a time, he was able to find the most beautiful flowers. He was so excited to explore the world.\n\nHe hopped and hopped until he found a big, colourful world. He hopped and hopped and hopped until he found a big, colourful world. He hopped through the forest and hopped and hopped through the forest.\n\nThe little boy was so happy and he had found a wonderful place. He"
+    },
+    {
+      "prompt": "The little girl",
+      "output": "The little girling the little girl's instructions. She smiled and thanked her for the kind words. \n\nThe little girl smiled and thanked her mum for the story. She was so happy to have such a kind and kind and kind. She had a wonderful day and she never forgot the world.\n\nOnce upon a time, there was a little girl called Daisy. Daisy loved to play outside in the garden"
+    },
+    {
+      "prompt": "A dog went into",
+      "output": "A dog went into. He was so excited and he couldn't believe how it was. He ran to the door and grabbed the door. He ran to the door and grabbed the door. He opened it and saw a big, green toy car! He was so happy and he smiled. He knew he had found something special. He had found a new toy and he was so happy! He had found a new toy"
+    },
+    {
+      "prompt": "One morning",
+      "output": "One morninged out of the garden. He was so excited to explore it. He hopped around the garden, and saw lots of people playing and having fun. \n\nHe was so much fun that he never wanted to go home. He was so excited to explore the world. He wanted to explore the world, so he decided to explore. He found a big, colourful fish and a big tree. He"
+    },
+    {
+      "prompt": "The robot",
+      "output": "The robot and said, \"I'm going to make sure you're safe.\"\n\nThe boy smiled and said, \"I'm sure you can do it again.\"\n\nThe boy smiled and said, \"Thank you for the answer.\"\n\nThe boy smiled and said, \"You're welcome. I'm glad I could help you.\"\n\nOnce upon a time, there was a little girl"
+    }
+  ]
+}

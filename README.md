@@ -29,6 +29,12 @@ Veda is a local language-model research project built from the ground up, with a
 - Completed a 500-step MPS scaling test with effective batch size 32.
 - Validation perplexity reached approximately 30.45 at step 500.
 
+### Veda v0.3 10K baseline
+
+- Completed 10,000 training steps with the same approximately 26.55M-parameter architecture.
+- Best checkpoint occurred at step 1,500 with logged validation perplexity `13.60` and independently measured perplexity `13.80`.
+- The final training loss reached `0.1218`, while validation worsened after step 1,500, clearly demonstrating overfitting on the bounded TinyStories sample.
+
 Perplexity between v0.1 and v0.2 is not directly comparable because the tokenizers and vocabulary sizes differ.
 
 ## Project Structure
@@ -69,6 +75,7 @@ Generate text from the v0.2 checkpoint after downloading or creating the local a
 - [Veda v0.1 report](evaluation/reports/veda-v0.1.md)
 - [Veda v0.2 report](evaluation/reports/veda-v0.2.md)
 - [Veda v0.3 scaling report](evaluation/reports/veda-v0.3.md)
+- [Veda v0.3 10K report](evaluation/reports/veda-v0.3-10k.md)
 - [Tokenizer report](evaluation/reports/tokenizer-v0.2.json)
 - [Experiment notes](experiments/README.md)
 
