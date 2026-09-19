@@ -86,6 +86,26 @@ Generate text from the v0.2 checkpoint after downloading or creating the local a
 3. Add instruction tuning and local chat inference.
 4. Build tool calling, codebase context, and the Veda editor.
 
+## Veda Workbench
+
+The unified desktop application lives in `desktop/` and the FastAPI runtime lives in `backend/`.
+
+Start the backend from the repository root:
+
+```bash
+.venv/bin/python -m uvicorn backend.main:app --reload --port 8000
+```
+
+Start the frontend in a second terminal:
+
+```bash
+cd desktop
+npm install
+npm run dev
+```
+
+Open `http://localhost:1420`. The workbench currently includes Chat, Monaco Editor, Agent planning, Files, Git status, a terminal strip, SQLite conversations, permission-gated workspace tools, and the local Veda provider. Tauri packaging is configured under `desktop/src-tauri/`; Rust is required to build the native macOS bundle.
+
 ## Collaborators
 
 - **Skanda Shyam** - Creator and developer

@@ -1,7 +1,13 @@
 .venv/
+.veda/
 __pycache__/
 *.py[cod]
 .DS_Store
+
+# Desktop frontend dependencies and build output
+desktop/node_modules/
+desktop/dist/
+desktop/src-tauri/target/
 
 # Downloaded and generated training data
 data/
